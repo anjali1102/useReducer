@@ -1,0 +1,14 @@
+function accomodate(acc,value){
+switch(value.type){
+    case "even":
+        return{...acc, even: acc.even+value.payload}
+
+    case "odd":
+         return{...acc, odd:acc.odd+value.payload}
+    default:
+        return acc
+}
+}
+    
+oddEvenWithSwitch=numList.reduce(accomodate,{odd:0, even:0})
+console.log(oddEvenWithSwitch)
