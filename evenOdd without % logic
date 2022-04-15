@@ -1,0 +1,22 @@
+const numList = [
+  { type: 'odd', payload: 1 },
+  { type: 'odd', payload: 3 },
+  { type: 'odd', payload: 55 },
+  { type: 'even', payload: 22 },
+  { type: 'even', payload: 44 },
+]
+
+// Q: modify your reducer function to accommodate this.
+
+
+
+function accomodate(acc,value){
+ if(value.type==='even'){
+     return{...acc, even: acc.even+value.payload}
+ }
+ return{...acc, odd:acc.odd+value.payload}
+}
+accomodate=numList.reduce(accomodate,{odd:0, even:0})
+console.log(accomodate)
+
+//did it without %2 logic as per previous questions
