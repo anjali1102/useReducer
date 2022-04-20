@@ -1,18 +1,9 @@
 # useReducer-
 
 for self understanding
-`const numbers = [2, 4, 6];
+![image](https://user-images.githubusercontent.com/56559378/164282878-4604ebd0-4290-4d25-b100-547e5d5901fe.png)
 
-const sum = numbers.reduce(function summarize(sum, number) {
-	console.log(`before: sum= ${sum} , number =${number}`)                            // 0  2, 2 4, 6 6
-  const updatedSum = sum + number;                                                  // 2 , 6, 12
-console.log(`After: sum= ${sum} , number =${number}, updateSum=${updatedSum}`)      //  0 2 2,  2 4 6,   6 6 12
-  return updatedSum;                                                                //2, 6, 12
-}, 0);
-
-console.log(sum);                                                                   // 12
-`
-
+[GIVE CODE A TRY  🚀](https://jsfiddle.net/anjali1102/rhx7m68c/1/) 
 
 
 > numbers.reduce(summarize, 0) calculates the sum of all elements in the array.
