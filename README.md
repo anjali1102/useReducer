@@ -1,9 +1,15 @@
 # useReducer-
 
-for self understanding
+> for self understanding
+
+BEHIND  THE SCENE OF REDUCE
 ![image](https://user-images.githubusercontent.com/56559378/164282878-4604ebd0-4290-4d25-b100-547e5d5901fe.png)
 
 [GIVE CODE A TRY  🚀](https://jsfiddle.net/anjali1102/rhx7m68c/1/) 
+
+ARRAY REDUCE METHOD
+![image](https://user-images.githubusercontent.com/56559378/164284121-a43094cd-a8b0-43d2-b09a-794d3ea3124f.png)
+
 
 
 > numbers.reduce(summarize, 0) calculates the sum of all elements in the array.
