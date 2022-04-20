@@ -12,20 +12,3 @@ oddAndEvenSumReducer=numList.reduce(oddAndEvenSumReducer,{odd:0, even:0})
 console.log(oddAndEvenSumReducer)
 
 
-<details>
-<summary><b>What is acc here? </b></summary>
-<p>
-```
-const numList = [1, 3, 55, 22, 44]
-
-function oddAndEvenSumReducer(acc, value) {
-  // write your code here
-   
-    return acc
-}
-
-oddAndEvenSumReducer=numList.reduce(oddAndEvenSumReducer)
-console.log(oddAndEvenSumReducer)
-```
-</p>
-</details>
