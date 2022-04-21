@@ -47,4 +47,20 @@ so here acc is first element in array
 
 - [x] Find Even and Odd sum
 - [x] Find Even and Odd sum without %2 logic
+- [x] Cart managment 💓(tried useState, then useReducer) [SEE HERE](https://codesandbox.io/s/cart-mgmt-with-usereducer-x0xi8f?file=/src/App.js)
+<details>
+<summary><b>mistakes while making 😶‍🌫️ </b></summary>
+<p>
+
+>`key` needs to be assigned to a jsx element 
+    
+![image](https://user-images.githubusercontent.com/56559378/164563959-fb8ddc76-4cc1-442d-b00b-04d0003575ae.png)
+![image](https://user-images.githubusercontent.com/56559378/164564051-0dbc2861-4e2d-4b06-9415-cf89de281be3.png)
+
+>useReducer should be define before return only
+![image](https://user-images.githubusercontent.com/56559378/164564429-60b4954d-173d-43ea-9a65-6bfe46fc8481.png)
+
+
+</p>
+</details>
 
